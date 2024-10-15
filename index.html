@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de presentación personal de [Tu Nombre]">
+    <title>Christopher Hess - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="gradientAnimationn">
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#projects">CV</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hola, soy Christopher Hess</h1>
+            <p>Desarrollador web Fullstack</p>
+            <a href="#contact" class="cta">Contácteme</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Soy un estudiante de segundo año de Ingeniería Informática, con una sólida
+                base en desarrollo web fullstack y experiencia en JavaScript, React, TypeScript,
+                HTML, CSS y MySQL. Comencé mi carrera profesional a los 18 años
+                gestionando un emprendimiento propio como autónomo, lo que me permitió
+                desarrollar habilidades de liderazgo, trabajo en equipo y comunicación efectiva.
+                Con una base del curso fullstack certificado en JavaScript por
+                la academia Nucba, lo que complementa mis estudios universitarios. Busco una
+                oportunidad de pasantía o trainee donde pueda aplicar mis conocimientos
+                técnicos y contribuir al éxito de un equipo de desarrollo dinámico.
+                </p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 y CSS3</li>
+                <li>Responsive Design</li>
+                <li>Git y control de versiones</li>
+                <li>API's</li>
+                <li>Librerias JS: Tailwind</li>
+                <li>TypeScript</li>
+                <li>NodeJS</li>
+                <li>ReactJS</li>
+
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="resume">
+            <h2>Mi Currículum</h2>
+            <p>Puedes descargar mi currículum completo aquí:</p>
+            <a href="Christopher Professional CV Resume.pdf" target="_blank" class="btn">Descargar CV</a>
+        </section>
+        
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si te interesa trabajar conmigo o tienes alguna pregunta, no dudes en contactarme:</p>
+            <form action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
